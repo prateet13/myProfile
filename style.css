@@ -11734,16 +11734,19 @@ fieldset:disabled .btn {
 
 .left-part {
   background-color: orange;
-  height: 100vh;
+  height: -webkit-fill-available;
   display: flex;
   flex-direction: column;
   justify-content: center;
   position: fixed;
   align-items: center;
+  
 }
 
 .list {
     text-align: center;
+    margin-right: 10px;
+    padding-right: 10px;
 }
 .profile-pic-image {
   width: 70%;
@@ -11780,6 +11783,8 @@ fieldset:disabled .btn {
 .right-part {
   margin-left: 27%;
   padding-right: 3%;
+  padding-left: 21px;
+  width: -webkit-fill-available;
 }
 
 .profile-summary li, .experience-entry-detail{
@@ -11812,7 +11817,6 @@ h6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2, h1, .h1 {
 }
 
 .contact-details {
-    display: flex;
     color: #6c757d;
     margin-bottom: 3%;
 }
